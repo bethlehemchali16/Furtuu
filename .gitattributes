@@ -144,3 +144,6 @@
 *.stl                filter=lfs diff=lfs merge=lfs -text
 *.nc                 filter=lfs diff=lfs merge=lfs -text
 *.mat                filter=lfs diff=lfs merge=lfs -text
+
+# Public web assets must be committed as real files; Vercel does not serve Git LFS pointers as images.
+/public/assets/**    -filter -diff -merge -text
