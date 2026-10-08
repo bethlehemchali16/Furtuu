@@ -1,4 +1,4 @@
-const assetPathPrefix = "/assets";
+const assetPathPrefix = `${import.meta.env.BASE_URL}assets`;
 const imgRabobankLogoContainer = `${assetPathPrefix}/17db0.png`;
 const imgIllustratedStoryScene = `${assetPathPrefix}/235f4.png`;
 const imgRaboLogoChip = `${assetPathPrefix}/2d5e3.png`;

@@ -1,4 +1,4 @@
-const assetPathPrefix = "/assets";
+const assetPathPrefix = `${import.meta.env.BASE_URL}assets`;
 const imgIllustratedStoryScene = `${assetPathPrefix}/f4974.png`;
 const imgChevronDown = `${assetPathPrefix}/ab980.svg`;
 const imgMessageSquare = `${assetPathPrefix}/d731e.svg`;
