@@ -1,0 +1,10 @@
+{
+  "description": "Experience an interactive journey that empowers farmers with access to agricultural financing and inputs, fostering growth and partnership with Cooperative Bank of Oromia.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="128" height="32" viewBox="0 0 128 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Navigation keypad" clip-path="url(#clip0_0_6)">
+<rect id="Function key" y="10" width="28" height="12" rx="4" fill="#68766E"/>
+<path id="Navigation key" d="M78.5 16C78.5 24.0081 72.0081 30.5 64 30.5C55.9919 30.5 49.5 24.0081 49.5 16C49.5 7.99187 55.9919 1.5 64 1.5C72.0081 1.5 78.5 7.99187 78.5 16Z" stroke-width="3" stroke="#68766E"/>
+<rect id="Function key_2" x="100" y="10" width="28" height="12" rx="4" fill="#68766E"/>
+</g>
+<defs>
+<clipPath id="clip0_0_6">
+<rect width="128" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
