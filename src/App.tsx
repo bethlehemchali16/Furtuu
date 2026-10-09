@@ -47,9 +47,9 @@ function Icon({ name, size = 24 }: { name: IconName; size?: number }) {
 
 function Brand() {
   return (
-    <div className="brand" aria-label="Furtu by Cooperative Bank of Oromia">
+    <div className="brand" aria-label="Furtuu by Cooperative Bank of Oromia">
       <span className="brand-mark"><Icon name="sprout" size={23} /></span>
-      <span className="brand-name">furtu</span>
+      <span className="brand-name">furtuu</span>
       <span className="brand-divider" />
       <span className="brand-bank">Cooperative Bank<br />of Oromia</span>
     </div>
@@ -98,7 +98,7 @@ function HeroScene({ compact = false }: { compact?: boolean }) {
         <rect width="125" height="86" rx="22" fill="#fff" />
         <circle cx="35" cy="43" r="20" fill="#e2f6fd" />
         <path d="M27 46h16m-12-6h8m-6 12h4" stroke="#00ADEF" strokeWidth="3" strokeLinecap="round" />
-        <text x="62" y="39" fontSize="12" fontWeight="700" fill="#17342b">Furtu</text>
+        <text x="62" y="39" fontSize="12" fontWeight="700" fill="#17342b">Furtuu</text>
         <text x="62" y="57" fontSize="10" fill="#688076">access</text>
       </g>
     </svg>
@@ -166,19 +166,19 @@ function App() {
         <Brand />
         <div className="nav-links">
           <button onClick={() => scrollTo("journey")}>How it works</button>
-          <button onClick={() => scrollTo("why")}>Why Furtu</button>
+          <button onClick={() => scrollTo("why")}>Why Furtuu</button>
         </div>
-        <button className="btn btn-small" onClick={() => scrollTo("start")}>Start your journey <Icon name="arrow" size={17} /></button>
+       
       </nav>
 
       <header className="hero">
         <div className="hero-copy">
           <span className="pill"><span className="pulse" /> Agricultural finance, made human</span>
-          <h1>Grow your farm.<br /><em>Furtu helps you get there.</em></h1>
+          <h1>Grow your farm.<br /><em>Furtuu helps you get there.</em></h1>
           <p>Agricultural financing that connects farmers with the inputs they need.</p>
           <div className="hero-actions">
-            <button className="btn" onClick={() => scrollTo("journey")}>See how Furtu works <Icon name="arrow" size={18} /></button>
-            <button className="text-btn" onClick={() => scrollTo("why")}>Why Furtu? <span>↓</span></button>
+            <button className="btn" onClick={() => scrollTo("journey")}>See how Furtuu works <Icon name="arrow" size={18} /></button>
+            <button className="text-btn" onClick={() => scrollTo("why")}>Why Furtuu? <span>↓</span></button>
           </div>
           <div className="trust-row">
             <span><Icon name="shield" size={18} /> Crop protection</span>
@@ -192,7 +192,7 @@ function App() {
       <section className="opening section">
         <div className="section-heading centered">
           <span className="eyebrow">FROM LAND TO GROWTH</span>
-          <h2>You bring the land.<br /><em>Furtu builds the bridge.</em></h2>
+          <h2>You bring the land.<br /><em>Furtuu builds the bridge.</em></h2>
         </div>
         <div className="story-strip">
           {[
@@ -211,7 +211,7 @@ function App() {
       <section
         id="journey"
         className="journey section figma-journey"
-        aria-label="Furtu farmer journey slider"
+        aria-label="Furtuu farmer journey slider"
         aria-roledescription="carousel"
         tabIndex={0}
         onKeyDown={(event) => {
@@ -312,8 +312,8 @@ function App() {
           <div className="feature-phone">
             <div className="phone-speaker" />
             <div className="phone-screen">
-              <small>FURTU · CBO</small>
-              <strong>Your Furtu application is being processed.</strong>
+              <small>FURTUU · CBO</small>
+              <strong>Your Furtuu application is being processed.</strong>
               <span>10:42 AM</span>
             </div>
             <div className="phone-keys">{Array.from({ length: 9 }).map((_, i) => <i key={i}>{i + 1}</i>)}</div>
@@ -356,7 +356,7 @@ function App() {
           <div className="layer-canvas systems-flow">
             <div className="systems-column data">
               <span className="flow-label">DATA FLOW</span>
-              {[["id", "Land Unique ID"], ["bank", "CBO / Sukpass"], ["cloud", "Ministry of Agriculture"], ["document", "Farmer + land profile"]].map(([icon, label]) => (
+              {[["id", "Land Unique ID"], ["bank", "CBO / souqpass"], ["cloud", "Ministry of Agriculture"], ["document", "Farmer + land profile"]].map(([icon, label]) => (
                 <div className="system-node" key={label}><Icon name={icon as IconName} /><strong>{label}</strong></div>
               ))}
             </div>
@@ -389,7 +389,7 @@ function App() {
 
       <section id="why" className="why-section section">
         <div className="section-heading split">
-          <div><span className="eyebrow">WHY CBO + FURTU</span><h2>More than a loan.<br /><em>A partner for your farm.</em></h2></div>
+          <div><span className="eyebrow">WHY CBO + FURTUU</span><h2>More than a loan.<br /><em>A partner for your farm.</em></h2></div>
           <p>Built around agricultural reality, local relationships, and a farmer's whole journey.</p>
         </div>
         <div className="pillars">
@@ -410,7 +410,7 @@ function App() {
         <div className="inclusion-copy">
           <span className="eyebrow">FINANCIAL INCLUSION</span>
           <h2>Finance should reach<br /><em>the people who grow our food.</em></h2>
-          <p>Furtu brings formal financial access closer to farmers—with dignity, practical tools, and trusted local support.</p>
+          <p>Furtuu brings formal financial access closer to farmers—with dignity, practical tools, and trusted local support.</p>
           <div className="barrier-list">
             <span><Icon name="phone" /> Simple-phone access</span><span><Icon name="farm" /> Land-based identity</span><span><Icon name="bank" /> Local branch support</span>
           </div>
@@ -446,15 +446,12 @@ function App() {
           <span className="eyebrow light">THE NEXT SEASON STARTS HERE</span>
           <h2>From access<br /><em>to opportunity.</em></h2>
           <p>Agricultural financing that moves with the farmer.</p>
-          <div className="hero-actions">
-            <button className="btn btn-light">Start your Furtu journey <Icon name="arrow" size={18} /></button>
-            <button className="text-btn light">Talk to CBO <span>→</span></button>
-          </div>
+        
           <small>Visit your local Cooperative Bank of Oromia branch to learn more.</small>
         </div>
       </section>
 
-      <footer><Brand /><p>Technology behind the experience. The farmer at the center.</p><span>Furtu © 2025</span></footer>
+      <footer><Brand /><p>Technology behind the experience. The farmer at the center.</p><span>Furtuu © 2025</span></footer>
     </main>
   );
 }
